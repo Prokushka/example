@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
-abstract class AppController
+class AppController extends Controller
 {
-    //
+    public function gitPushGitHub2()
+    {
+        return '';
+    }
 }
